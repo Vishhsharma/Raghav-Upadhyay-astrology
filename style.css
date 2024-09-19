@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+h1{
+    color:red;
+    font-style: italic;
+
+}
+
+
+figcaption{
+    color:white;
+    text-align:justify;
+    font-size: x-large;
+    font-style: oblique;
+}
+figcaption::first-letter{
+    font-size: 800%;
+    color:red;
+    text-shadow: 10px 10px 10px green;
+}
+ul{
+    color:white;
+    
+}
+div{
+color:white;
+
+}
+
+h2{
+    text-align: center;
+    color:red;
+    font-size: xx-large;
+    box-shadow: 10px 15px 50px 20px red;
+}
+img{
+   float: right;
+   border-radius: 50%;
+   margin-left: 200px;  
+   border-color: greenyellow;
+   border-width: 20px;
+
+}
+a:hover{
+    background-color: burlywood;
+    text-decoration:double;
+    font-size: 20px;
+    font-stretch: narrower;
+}
+a:visited{
+    color:goldenrod;
+}
+a:active{
+    color:purple;
+}
